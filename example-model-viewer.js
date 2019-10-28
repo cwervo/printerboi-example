@@ -7,7 +7,7 @@ function setAttributeBlank(el, attribute) {
 
 let mvEl = document.createElement('model-viewer');
 mvEl.setAttribute('src', './gameboy.glb')
-mvEl.setAttribute('background-color', '#2EAFAC')
+mvEl.setAttribute('background-color', '#FFFFFF')
 setAttributeBlank(mvEl, 'auto-rotate')
 setAttributeBlank(mvEl, 'camera-controls')
 setAttributeBlank(mvEl, 'auto-rotate')
