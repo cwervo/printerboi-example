@@ -1,0 +1,20 @@
+{
+  "name": "printerboi-glitch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "Andrés Cuervo",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.0"
+  },
+  "dependencies": {
+    "gltumble": "^1.0.1",
+    "printerboi": "0.0.1",
+    "three": "^0.95.0",
+    "three-orbitcontrols": "^2.1.2"
+  }
+}
