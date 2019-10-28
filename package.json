@@ -1,20 +1,19 @@
 {
-  "name": "printerboi-glitch",
-  "version": "1.0.0",
-  "description": "",
+  "name": "parc3l",
+  "version": "0.1.0",
   "main": "index.js",
-  "scripts": {
-    "start": "parcel index.html"
-  },
-  "author": "Andrés Cuervo",
-  "license": "ISC",
-  "devDependencies": {
-    "parcel-bundler": "^1.10.0"
-  },
+  "license": "MIT",
   "dependencies": {
+    "mime-types": "2.1.18",
+    "express": "^4.16.3",
+    "node-sass": "^4.8.3",
+    "three": "^0.91.0",
+    "printerboi": "^0.0.1",
     "gltumble": "^1.0.1",
-    "printerboi": "0.0.1",
-    "three": "^0.95.0",
-    "three-orbitcontrols": "^2.1.2"
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "build": "parcel build index.html -d docs",
+    "start": "node start.js"
   }
 }
