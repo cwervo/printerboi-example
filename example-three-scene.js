@@ -21,8 +21,7 @@ var renderer = new THREE.WebGLRenderer({
     antialias: false,
     transparent: false,
     preserveDrawingBuffer: true,
-    powerPreference: 'low-power',
-    failIfMajorPerformanceCaveat: true
+    powerPreference: 'low-power'
 });
 renderer.setSize( getWidth(), getHeight() );
 
