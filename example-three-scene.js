@@ -61,7 +61,8 @@ gltfLoader.load(
     function ( error ) { console.log( 'An error happened' ); }
 );
 
-camera.position.z = 4;
+camera.position.z = 2;
+camera.position.y += 0.75;
 
 var animate = function () {
     requestAnimationFrame( animate );
